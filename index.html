@@ -1,159 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ihor Lukovskyy - Resume</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #d9f7d0; /* Пастельний зелений фон */
-      color: #333;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .container {
-      width: 70%;
-      padding: 20px;
-      background-color: #ffffff;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-    }
-    h1, h2 {
-      color: #4CAF50;
-      text-align: center;
-    }
-    h3 {
-      color: #333;
-      margin-bottom: 5px;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-    .section p {
-      margin: 5px 0;
-    }
-    .skills ul, .experience ul, .education ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    .skills li, .experience li, .education li {
-      background-color: #d4f1d1; /* Зелений для елементів */
-      margin: 5px 0;
-      padding: 8px;
-      border-radius: 4px;
-    }
-    .contact-info p {
-      margin: 5px 0;
-    }
-    .contact-info a {
-      text-decoration: none;
-      color: #4CAF50;
-    }
-    .footer {
-      text-align: center;
-      margin-top: 20px;
-      font-size: 14px;
-      color: #777;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume of Ihor Lukovskyy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6F5E3; /* pastel green background */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .block {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2C6B3C; /* dark green */
+        }
+        p, li {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            background-color: #F2F2F2;
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Ihor Lukovskyy</h1>
-      <div class="contact-info">
+
+<div class="container">
+
+    <!-- Personal Info -->
+    <div class="block contact-info">
+        <h1>Ihor Lukovskyy</h1>
         <p><strong>Date of Birth:</strong> 09.06.2000</p>
         <p><strong>Address:</strong> Lviv, st. Shyroka 76/70</p>
-        <p><strong>Phone:</strong> <a href="tel:+380932730105">+380932730105</a></p>
+        <p><strong>Phone:</strong> +380932730105</p>
         <p><strong>Email:</strong> <a href="mailto:lukovskyy817@gmail.com">lukovskyy817@gmail.com</a></p>
-        <p><strong>Git:</strong> <a href="#">GitHub Profile</a></p>
-        <p><strong>Skype:</strong> <a href="skype:live:ac32a05a473316e0?call">live:ac32a05a473316e0</a></p>
-      </div>
-    </header>
-
-    <div class="section skills">
-      <h2>Skills</h2>
-      <h3>Languages:</h3>
-      <p>English (B2), Ukrainian (Native).</p>
-      
-      <h3>Technical Skills:</h3>
-      <ul>
-        <li>Networking</li>
-        <li>Operating Systems (Linux, Windows, macOS)</li>
-        <li>HTML, Bash, Python, MySQL</li>
-        <li>Microsoft 365 Office</li>
-        <li>Junior Linux System Administration</li>
-        <li>Ticketing systems: Dispatch, Jira, Graylog</li>
-        <li>Basic knowledge of Java</li>
-        <li>DevOps Tools: Docker, Docker-Compose, Jenkins, GitHub Actions, Monitoring Tools, Artifactory, Terraform, Gradle, SonarCloud, Zabbix</li>
-        <li>Cloud Technologies: AWS, GCP, Azure DevOps</li>
-        <li>Infrastructure as Code (IaC) and Infrastructure as a Service (IaaS)</li>
-        <li>Platform as a Service (PaaS)</li>
-        <li>Build Tools and Code Inspection</li>
-      </ul>
-      
-      <h3>Soft Skills:</h3>
-      <ul>
-        <li>Excellent communication, problem-solving, and adaptability</li>
-      </ul>
+        <p><strong>Skype:</strong> live:ac32a05a473316e0</p>
     </div>
 
-    <div class="section work-experience">
-      <h2>Work Experience</h2>
-      <h3>Network Operations Center Agent (Tier 3/L3)</h3>
-      <p><strong>Geeksforless Inc.</strong> | Dec. 2021 – Present</p>
-      <ul>
-        <li>Network monitoring (Nagios Dashboard)</li>
-        <li>Escalation management</li>
-        <li>Ticket processing (Dispatch, Jira, Graylog)</li>
-        <li>Data center backups</li>
-        <li>Abuse issue handling</li>
-        <li>Junior Linux system administration tasks (Linux, Apache, Abuse handling, SWAP management, log archiving, DDoS mitigation, deferred message queue clearing, etc.)</li>
-      </ul>
-
-      <h3>Technical Support Specialist</h3>
-      <p><strong>Kyivstar Telecommunications Company</strong> | Sep. 2018 – Jan. 2019</p>
-      <ul>
-        <li>Customer communication and support</li>
-        <li>Issue investigation and resolution</li>
-        <li>System configuration</li>
-      </ul>
+    <!-- Skills -->
+    <div class="block skills">
+        <h2>Skills</h2>
+        <p><strong>Languages:</strong> English (B2), Ukrainian (Native)</p>
+        <p><strong>Technical Skills:</strong></p>
+        <ul>
+            <li>Networking</li>
+            <li>Operating Systems (Linux, Windows, macOS)</li>
+            <li>HTML, Bash, Python, MySQL</li>
+            <li>Microsoft 365 Office</li>
+            <li>Junior Linux System Administration</li>
+            <li>Ticketing systems: Dispatch, Jira, Graylog</li>
+            <li>Basic knowledge of Java</li>
+            <li>DevOps Tools: Docker, Docker-Compose, Jenkins, GitHub Actions, Monitoring Tools, Artifactory, Terraform, Gradle, SonarCloud, Zabbix</li>
+            <li>Cloud Technologies: AWS, GCP, Azure DevOps</li>
+            <li>Infrastructure as Code (IaC) and Infrastructure as a Service (IaaS)</li>
+            <li>Platform as a Service (PaaS)</li>
+            <li>Build Tools and Code Inspection</li>
+        </ul>
     </div>
 
-    <div class="section education">
-      <h2>Education</h2>
-      <ul>
-        <li>SoftServe Academy</li>
-        <li>Prometheus</li>
-      </ul>
+    <!-- Work Experience -->
+    <div class="block">
+        <h2>Work Experience</h2>
+        <p><strong>Network Operations Center Agent (Tier 3/L3)</strong><br>Geeksforless Inc. | Dec. 2021 – Present</p>
+        <ul>
+            <li>Network monitoring (Nagios Dashboard)</li>
+            <li>Escalation management</li>
+            <li>Ticket processing (Dispatch, Jira, Graylog)</li>
+            <li>Data center backups</li>
+            <li>Abuse issue handling</li>
+            <li>Junior Linux system administration tasks (Linux, Apache, Abuse handling, SWAP management, log archiving, DDoS mitigation, deferred message queue clearing and more)</li>
+        </ul>
+        <p><strong>Technical Support Specialist</strong><br>Kyivstar Telecommunications Company | Sep. 2018 – Jan. 2019</p>
+        <ul>
+            <li>Customer communication and support</li>
+            <li>Issue investigation and resolution</li>
+            <li>System configuration</li>
+        </ul>
     </div>
 
-    <div class="section additional-info">
-      <h2>Additional Information</h2>
-      <ul>
-        <li>Strong ability to adapt and learn new technologies quickly.</li>
-        <li>Confident in identifying root causes of problems and providing effective resolutions.</li>
-        <li>Excellent interpersonal skills, enabling seamless collaboration and understanding in diverse teams.</li>
-      </ul>
+    <!-- Education -->
+    <div class="block">
+        <h2>Education</h2>
+        <p><strong>SoftServe Academy</strong></p>
+        <p><strong>Prometheus</strong></p>
     </div>
 
-    <div class="section interests">
-      <h2>Interests</h2>
-      <ul>
-        <li>System administration</li>
-        <li>Networking technologies</li>
-        <li>Continuous skill development</li>
-      </ul>
+    <!-- Additional Information -->
+    <div class="block">
+        <h2>Additional Information</h2>
+        <ul>
+            <li>Strong ability to adapt and learn new technologies quickly.</li>
+            <li>Confident in identifying root causes of problems and providing effective resolutions.</li>
+            <li>Excellent interpersonal skills, enabling seamless collaboration and understanding in diverse teams.</li>
+        </ul>
     </div>
 
-    <footer class="footer">
-      <p>&copy; 2025 Ihor Lukovskyy. All rights reserved.</p>
-    </footer>
-  </div>
+    <!-- Interests -->
+    <div class="block">
+        <h2>Interests</h2>
+        <ul>
+            <li>System administration</li>
+            <li>Networking technologies</li>
+            <li>Continuous skill development</li>
+        </ul>
+    </div>
+
+</div>
+
 </body>
 </html>
